@@ -6,6 +6,7 @@
   <title>Sushiman</title>
   <link rel="icon" href="/sushi.png" type="image/png">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <header>
@@ -388,7 +389,13 @@
       </li>
     </ul>
   </footer>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    duration: 1000,
+    offset: 100,
+});
+  </script>
   <script src="js/script.js"></script>
 </body>
 </html>
